@@ -30,6 +30,19 @@
   <script src="bootstrap/js/bootstrap.min.js"></script>
 
 	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+	<script>
+    $(function() {
+			$('.slide-popup').hover(function() {
+          var len = $(this).children('.slide-popup-text').width();
+          $(this).stop().animate({right: -300+len}, 300);
+          },
+          function () {
+          $(this).stop().animate({right: -340}, 300);
+          });
+    });
+	</script>
+
  </head>
 
  <body>
@@ -67,6 +80,21 @@
         </button -->
     </div>
 	</nav>
+
+	<div class="slide-popup slide-popup1">
+      <span class="slide-popup-icon glyphicon glyphicon-bullhorn"></span>
+      <p class="slide-popup-text">
+        毎週水曜・金曜，戸山キャンパスで活動中！
+      </p>
+  </div>
+
+	<div class="slide-popup slide-popup2">
+      <span class="slide-popup-icon glyphicon glyphicon-info-sign"></span>
+      <p class="slide-popup-text">
+        <a href="#">夏3日練の要項を公開しました！</a>
+      </p>
+  </div>
+
 	<div class="jumbotron">
 		<div class="container">
 			<h1>早稲田大学<br class="visible-xs-block">オリエンテーリングクラブ</h1>
@@ -79,9 +107,13 @@
 	<div class="container">
       <!-- Example row of columns -->
       <div class="row">
+				<div class="col-md-4">
+          <h2>Twitterと更新情報</h2>
+          <p><a class="twitter-timeline" href="https://twitter.com/waseda_oc" data-widget-id="613019191025664000">@waseda_ocさんのツイート</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
         <div class="col-md-4">
           <h2>当クラブについて</h2>
-          <p>1974年設立の，歴史ある早稲田大学公認サークルです。4大学のインカレサークルで，部員は40名を数えます。年2回の合宿や毎週ある練習会，週末には各地で開かれる様々なオリエンテーリングの大会に参加します。私たちとオリエンテーリングをしてみませんか？</p>
+					<p>1974年設立の，歴史ある早稲田大学公認サークルです。4大学のインカレサークルで，部員は40名を数えます。<br>年2回の合宿や毎週ある練習会，週末には各地で開かれる様々なオリエンテーリングの大会に参加します。私たちとオリエンテーリングをしてみませんか？</p>
           <p><a class="btn btn-success" href="#" role="button">About Us &raquo;</a></p>
         </div>
         <div class="col-md-4">
@@ -94,18 +126,16 @@
 					<p>ぼくら早大OCは，常に新たな部員を募集しています。<br>オリエンテーリングの魅力は実際に体験してみないとわかりません。随時対応いたしますので，少しでも気になる方はぜひご連絡を！あなたの入部をいつでも歓迎いたします。</p>
           <p><a class="btn btn-success" href="#" role="button">新歓ページ &raquo;</a></p>
         </div>
+				<div class="col-md-4">
+          <h2>学生オリエンテーリング</h2>
+          <p>オリエンテーリングは，学生から始める人がほとんどです。競技人口もそれほど多くないため，トレーニングを積めばすぐ上を目指せます。当クラブにも大学生から始めて日本代表になった選手がいます。自身のペースで上を目指してみませんか？</p>
+          <p><a class="btn btn-success" href="#" role="button">Orienteering? &raquo;</a></p>
+       </div>
+
       </div>
 			<hr>
 			<div class="row">
-        <div class="col-md-4">
-          <h2>Twitterと更新情報</h2>
-          <p><a class="twitter-timeline" href="https://twitter.com/waseda_oc" data-widget-id="613019191025664000">@waseda_ocさんのツイート</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        </div>
-        <div class="col-md-4">
-          <h2>オリエンテーリングとは？</h2>
-          <p>オリエンテーリングとは，地図とコンパスを用いて公園や野山を駆け巡り，設置してあるチェックポイントを正しい順番ですべて周り，ゴールまでの時間を競う競技です。体力だけでなく，集中力や知力が勝利のカギとなることも？</p>
-          <p><a class="btn btn-success" href="#" role="button">Orienteering? &raquo;</a></p>
-       </div>
+        
         <div class="col-md-4">
           <h2>新歓情報</h2>
 					<p>ぼくら早大OCは，常に新たな部員を募集しています。<br>オリエンテーリングの魅力は実際に体験してみないとわかりません。随時対応いたしますので，少しでも気になる方はぜひご連絡を！あなたの入部をいつでも歓迎いたします。</p>
