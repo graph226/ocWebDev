@@ -1,0 +1,79 @@
+.jumbotron {
+    margin-bottom: 0px;
+    color: white;
+		width: auto;
+		height: auto;
+    text-shadow: black 1px 1px 0px, black -1px 1px 0px,
+             black 1px -1px 0px, black -1px -1px 0px;
+}
+
+.jumbotron_top {
+    background: url(../images/head001.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 25%;
+}
+
+.jumbotron_forOltr {
+    background: url(../images/head002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 25%;
+}
+
+
+.jumbotron_sp {
+    margin-bottom: 0px;
+    color: white;
+		width: auto;
+		height: auto;
+    text-shadow: black 1px 1px 0px, black -1px 1px 0px,
+             black 1px -1px 0px, black -1px -1px 0px;
+}
+
+.btn-two {
+    margin-right: 20px;
+}
+
+
+
+.row-10{
+	margin-left:-5px;
+	margin-right:-5px;
+ 
+	> div{
+		padding-right:5px;
+		padding-left:5px;
+	}
+}
+
+.slide-popup {
+  position: fixed;
+  right: -340px;
+  width: 400px;
+  height: 60px;
+  box-shadow: 0 0 10px;
+  z-index: 9999;
+}
+.slide-popup .slide-popup-icon {
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 28px;
+}
+.slide-popup .slide-popup-text {
+  position: absolute;
+  left: 60px;
+  padding: 20px;
+}
+.slide-popup1 {
+  top: 100px;
+  background-color: #4682b4;
+  color: #000;
+}
+.slide-popup2 {
+  top: 180px;
+  color: #000;
+  background-color: #f5deb3;
+}
