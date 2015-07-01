@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<html lang="ja">
+ <head>
+	<meta charset="utf-8" />
+  <title>早大OC大会</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="style/common.css" rel="stylesheet" />
+	<link href="css/occomp.css" rel="stylesheet">
+	<style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+  </style>
+
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>script>
+      <![endif]-->
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="js/jquery.backgroundpos.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+	<script>
+		$(function() {
+			$('.slide-popup').hover(function() {
+          var len = $(this).children('.slide-popup-text').width();
+          $(this).stop().animate({right: -300+len}, 300);
+          },
+          function () {
+          $(this).stop().animate({right: -340}, 300);
+          });
+    });
+	</script>
+
+ </head>
+
+ <body>
+	<!--- グローバルナビゲーション -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand">Waseda OC</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <!-- 2.ヘッダ情報 -->
+        
+        <!-- 3.リストの配置 -->
+        <ul class="nav navbar-nav">
+            <li><a href="index.html">TOP</a></li>
+            <li class="active"><a href="occomp.html">早大OC大会</a></li>
+            <li><a href="#">Orienteering?</a></li>
+            <li><a href="#">新歓ページ</a></li>
+            <li><a href="#">イベント</a></li>
+            <li><a href="#">地図販売</a></li>
+            <li><a href="#">機材貸出</a></li>
+            <li><a href="#">ブログ</a></li>
+            <li><a href="#">About us</a></li>
+        </ul>
+      </div>
+        <!-- 4.ボタン -->
+        <!--button type="button" class="btn btn-default navbar-btn">
+            <span class="glyphicon glyphicon-envelope"></span>
+        </button -->
+    </div>
+	</nav>
+
+	<div class="slide-popup slide-popup1">
+      <span class="slide-popup-icon glyphicon glyphicon-bullhorn"></span>
+      <p class="slide-popup-text">
+        第35回 早大OC大会は終了しました。
+      </p>
+  </div>
+
+	<div class="slide-popup slide-popup2">
+      <span class="slide-popup-icon glyphicon glyphicon-info-sign"></span>
+      <p class="slide-popup-text">
+        <a href="#">夏3日練の要項を公開しました！</a>
+      </p>
+  </div>
+
+	<div class="jumbotron jumbotron_top hidden-xs">
+		<div class="container">
+			<h1>早稲田大学<br class="visible-xs-block">オリエンテーリング大会</h1>
+				<p>今年で35回を数えた，<br class="visible-xs-block">学生が運営するオリエンテーリング大会です。</p>
+
+		</div> <!-- /container -->    
+	</div>
+
+	<div class="jumbotron_top jumbotron_sp visible-xs">
+		<div class="container">
+			<h1>早稲田大学<br class="visible-xs-block">オリエンテーリング大会</h1>
+				<p>今年で35回を数えた，<br class="visible-xs-block">学生が運営するオリエンテーリング大会です。</p>
+		</div> <!-- /container -->    
+	</div>
+
+
+	<div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2 id="headline">大会マスコット</h2>
+          <img src="images/hukaras.jpg" class="img-responsive img-circle" />
+        </div>
+
+				<div class="col-md-4">
+          <h2 id="headline">早大OC大会</h2>
+					<p>ほぼ毎年開催されている，当クラブ主催のオリエンテーリング大会です。学生自ら調査したり運営したりすることで，学生オリエンティアのみならず，全世代のオリエンティアからも高い支持を得ています。開催地は関東近郊の各地。かつて開催したテレインを修正調査して運営することもあります。</p>
+        </div>
+
+        <div class="col-md-4">
+          <h2 id="headline">第35回早大OC大会</h2>
+          <p>第35回大会は静岡県裾野市「深良財産区」で行われました。多数のご参加をいただきありがとうございました。当日は競技不成立と，参加者のみなさまには多大なるご迷惑をおかけしたことをお詫び申し上げます。詳しくは特設サイトをご覧ください。 </p>
+          <p><a class="btn btn-success" href="http://wasedaoc.oteage.net/35octaikai/" target="_blank" role="button">第35回早大OC大会 &raquo;</a></p>
+       </div>
+        
+        <div class="col-md-4">
+          <h2 id="headline">第36回早大OC大会</h2>
+          <p>第36回大会へ向け，私たちも動き出しています。使用するテレインが秘密裏に決定しました。詳しい情報はこのウェブサイトまたは特設サイトにて随時告知していきます。今後の情報をお待ちください！</p>
+          <p><a class="btn btn-success" href="#" role="button">Comming soon... &raquo;</a></p>
+       </div>
+				
+      </div>
+			
+	</div>
+
+  <div class="jumbotron">
+    <div class="container">
+      <span class="footer">
+          <a href="index.html">TOP</a>
+        ｜<a href="occomp.html">早大OC大会</a>
+        ｜<a href="orienteering.html">Orienteering?</a>
+        ｜<a href="welcome.html">新歓ページ</a>
+        ｜<a href="events.html">イベント</a>
+        ｜<a href="map.html">地図販売</a>
+        ｜<a href="emits.html">機材貸出</a>
+        ｜<a href="http://wuoc.exblog.jp" target="_blank">ブログ</a>
+        ｜<a href="sodaioc.html">About Us</a>
+      </span><br>
+      <span class="footer">このページはChrome，Firefox，Safariでの動作を想定して作られています。Internet Explorerでの動作は保証されていません。</span>
+      <footer>
+        <p><div class="footer">&copy; S.I in WasedaU Orienteering Club 2015</div></p>
+    </footer>
+    </div>
+  </div>
+
+      </div>
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+	
+  
+ </body>
+</html>
+
+

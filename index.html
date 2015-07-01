@@ -32,7 +32,7 @@
 	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
 	<script>
-    $(function() {
+		$(function() {
 			$('.slide-popup').hover(function() {
           var len = $(this).children('.slide-popup-text').width();
           $(this).stop().animate({right: -300+len}, 300);
@@ -66,13 +66,13 @@
         <!-- 3.リストの配置 -->
         <ul class="nav navbar-nav">
             <li class="active"><a href="#">TOP</a></li>
-            <li><a href="#">早大OC大会</a></li>
+            <li><a href="occomp.html">早大OC大会</a></li>
             <li><a href="#">Orienteering?</a></li>
             <li><a href="#">新歓ページ</a></li>
             <li><a href="#">イベント</a></li>
             <li><a href="#">地図販売</a></li>
             <li><a href="#">機材貸出</a></li>
-            <li><a href="#">ブログ</a></li>
+            <li><a href="http://wuoc.exblog.jp" target="_blank">ブログ</a></li>
             <li><a href="#">About us</a></li>
         </ul>
       </div>
@@ -179,23 +179,33 @@
           	<a class="col-md-3 btn btn-success btn-two" href="#" role="button">地図販売 &raquo;</a>
           	<a class="col-md-3 btn btn-success" href="#" role="button">機材貸出&raquo;</a>
 				</div>
-
-			        
-
+        
       </div>
   </div>
 
-  <footer>
-        <p>&copy; WasedaU Orienteering Club 2015</p>
-  </footer>
-
+  <div class="jumbotron">
+    <div class="container">
+      <span class="footer">
+          <a href="index.html">TOP</a>
+        ｜<a href="occomp.html">早大OC大会</a>
+        ｜<a href="orienteering.html">Orienteering?</a>
+        ｜<a href="welcome.html">新歓ページ</a>
+        ｜<a href="events.html">イベント</a>
+        ｜<a href="map.html">地図販売</a>
+        ｜<a href="emits.html">機材貸出</a>
+        ｜<a href="http://wuoc.exblog.jp" target="_blank">ブログ</a>
+        ｜<a href="sodaioc.html">About Us</a>
+      </span><br>
+      <span class="footer">このページはChrome，Firefox，Safariでの動作を想定して作られています。Internet Explorerでの動作は保証されていません。</span>
+      <footer>
+        <p><div class="footer">&copy; S.I in WasedaU Orienteering Club 2015</div></p>
+    </footer>
+    </div>
+  </div>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
-	
-  
  </body>
 </html>
 
